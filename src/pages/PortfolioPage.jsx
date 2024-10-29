@@ -1,16 +1,23 @@
+import React from 'react';
+import Card from '../components/Card';
+
 export default function PortfolioPage() {
   return (
     <div className="container pt-4">
-      <p>
-        PORTFOLIO
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-        tenetur maiores, dolor iusto dolorum ullam, natus deleniti blanditiis
-        impedit suscipit sed magnam alias in, repellat expedita hic explicabo
-        architecto soluta. About us Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Velit voluptate exercitationem quaerat pariatur
-        mollitia, excepturi, voluptatem eveniet a dolor nobis ex veniam totam
-        nostrum temporibus ad omnis nam rerum eligendi.
-      </p>
+      <div className="columns">
+        <div className="column">
+          <Card />
+        </div>
+        <div className="column">
+          <Card />
+        </div>
+        <div className="column">
+          <Card />
+        </div>
+        <div className="column">
+          <Card />
+        </div>
+      </div>
     </div>
   );
 }
