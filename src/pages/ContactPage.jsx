@@ -67,7 +67,7 @@ export default function ContactPage() {
   return (
     <div className="container">
 
-      <h1 className="title tag is-dark">
+      <h1 className="title">
         CONTACT
       </h1>
 
